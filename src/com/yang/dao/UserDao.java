@@ -1,5 +1,7 @@
 package com.yang.dao;
 
+import com.yang.domain.User;
+
 public interface UserDao {
-    void login();
+    User login(User user);
 }

@@ -1,6 +1,7 @@
 package com.yang.service.Impl;
 
 import com.yang.dao.UserDao;
+import com.yang.domain.User;
 import com.yang.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +15,7 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    public void login() {
-
+    public User login(User user) {
+        return userDao.login(user);
     }
 }

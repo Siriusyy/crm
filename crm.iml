@@ -4,9 +4,8 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="noname-ApplicationContext.xml@1334" />
-          <unit-entry name="noname-ApplicationContext.xml@1335" />
-          <unit-entry name="noname-ApplicationContext.xml@1345" />
+          <unit-entry name="noname-ApplicationContext.xml@1345" value="21ffc829-3202-460f-aec0-769f58b4ffd6" />
+          <unit-entry name="noname-ApplicationContext.xml@1346" value="21ffc829-3202-460f-aec0-769f58b4ffd6" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />

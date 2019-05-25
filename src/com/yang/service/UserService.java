@@ -1,5 +1,7 @@
 package com.yang.service;
 
+import com.yang.domain.User;
+
 public interface UserService {
-    void login();
+    User login(User user);
 }
